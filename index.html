@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Kuchupuchu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Animated hearts background -->
+    <div class="hearts" id="heartsContainer"></div>
+
+    <div class="container">
+        <div class="card">
+            <h1 class="title">💕 For My Kuchupuchu 💕</h1>
+            
+            <div class="message">
+                <p>Every day with you feels like a <span class="highlight">beautiful dream</span></p>
+                <p>You make my world brighter with your <span class="highlight">smile</span></p>
+                <p>Thank you for being the <span class="highlight">sweetest part</span> of my life</p>
+            </div>
+
+            <div class="photo-container">
+                <img src="https://via.placeholder.com/200x200/ff69b4/ffffff?text=Your+Photo" alt="My Kuchupuchu" class="photo" id="mainPhoto">
+            </div>
+
+            <div class="button-container">
+                <button class="btn btn-primary" onclick="showSurprise()">Click for Surprise 🎁</button>
+                <button class="btn btn-secondary" onclick="playMusic()">Play Our Song 🎵</button>
+                <button class="btn btn-special" onclick="showMemories()">Our Memories 📷</button>
+            </div>
+
+            <div class="surprise-section" id="surpriseSection">
+                <div class="gift-box">🎁</div>
+                <p style="font-size: 1.5rem; color: #e91e63; font-weight: bold;">
+                    Surprise! You mean everything to me! ❤️
+                </p>
+                <div class="audio-player">
+                    <audio controls style="width: 100%;" id="loveAudio">
+                        <source src="our-song.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <p style="margin-top: 10px; color: #6f42c1; font-style: italic;">
+                        "Our special song that always reminds me of you"
+                    </p>
+                </div>
+            </div>
+
+            <div class="footer">
+                Made with infinite love for my one and only ❤️
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
